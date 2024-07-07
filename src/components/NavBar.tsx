@@ -17,7 +17,7 @@ export default function NavBar({ onTab }: { onTab: (set: any) => void }) {
       return setTab(tabName);
     }
 
-    router.push(`${process.env.NEXT_PUBLIC_HOST}`);
+    // router.push(`${process.env.NEXT_PUBLIC_HOST}`);
   }
 
   function customHref(href: string) {
